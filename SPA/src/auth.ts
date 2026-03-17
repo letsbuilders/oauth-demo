@@ -9,11 +9,10 @@ import {
 
 const oidcSettings: UserManagerSettings = {
   // TODO: replace with your actual issuer/authority URL
-  // authority: 'https://auth.letsbuild.com',
-  authority: `https://auth.development.dev1.eu-west-1.aws.dev.lb4.co/`,
+  authority: 'https://auth.letsbuild.com',
 
   // TODO: paste the Client ID from your OAuth provider here
-  client_id: "50cf56b6-3c96-4ea0-9c7a-5cca971ea0a1",
+  client_id: "75eb7f7d-73fa-4968-be7f-844071e4898e",
 
   // Must match the redirect URI you configured: http://localhost:5173/auth-callback
   redirect_uri: `${window.location.origin}/auth-callback`,
