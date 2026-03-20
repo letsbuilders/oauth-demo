@@ -27,7 +27,7 @@ const oidcSettings: UserManagerSettings = {
   scope: "openid offline_access profile projects",
 
   // Store state/user in localStorage so it survives reloads
-  userStore: new WebStorageStateStore({ store: window.localStorage }),
+  userStore: new WebStorageStateStore({ store: window.sessionStorage }),
 };
 
 Log.setLogger(console);
