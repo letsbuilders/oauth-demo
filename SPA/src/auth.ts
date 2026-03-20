@@ -1,7 +1,7 @@
 import { jwtDecode } from "jwt-decode";
 import {
   Log,
-  User,
+  type User,
   UserManager,
   type UserManagerSettings,
   WebStorageStateStore,
